@@ -1,0 +1,63 @@
+index.html
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>রাফির অনলাইন পেজ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:'Nunito',sans-serif;margin:0;background:#f6f9fc;color:#222}
+    header{background:#0056d6;color:white;padding:50px 20px;text-align:center}
+    .container{max-width:900px;margin:28px auto;padding:0 16px}
+    h1{margin:0;font-size:30px}
+    h2{color:#0056d6}
+    .card{background:white;padding:20px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.08);margin-bottom:20px}
+    .btn{display:inline-block;padding:10px 15px;background:#0056d6;color:white;border-radius:6px;text-decoration:none}
+    footer{text-align:center;color:#555;margin:40px 0 60px;font-size:14px}
+    @media(max-width:600px){h1{font-size:24px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>স্বাগতম — রাফি আহমেদের অনলাইন পেজে</h1>
+    <p>আমি একজন ক্রিয়েটিভ শিক্ষার্থী এবং ভবিষ্যতের উদ্যোক্তা 💫</p>
+  </header>
+
+  <div class="container">
+    <section class="card">
+      <h2>আমার সম্পর্কে</h2>
+      <p>আমি ন্যাশনাল ইউনিভার্সিটির সমাজবিজ্ঞান অনার্স ১ম বর্ষের ছাত্র। সমাজ, সংস্কৃতি, ও রাজনীতি আমার আগ্রহের বিষয়। পাশাপাশি আমি কনটেন্ট তৈরি, ডিজাইন ও অনলাইন প্রজেক্টে কাজ করি।</p>
+    </section>
+
+    <section class="card">
+      <h2>আমি যা করি</h2>
+      <ul>
+        <li>গ্রাফিক ডিজাইন ও ব্র্যান্ডিং</li>
+        <li>সোশ্যাল মিডিয়া কনটেন্ট তৈরি</li>
+        <li>ওয়েবসাইট ও অনলাইন প্রজেক্ট ডেভেলপমেন্ট</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>আমার কাজের নমুনা</h2>
+      <p>শীঘ্রই আমি আমার কিছু প্রজেক্টের লিংক এখানে যোগ করব।</p>
+    </section>
+
+    <section class="card">
+      <h2>যোগাযোগ</h2>
+      <p>📧 ইমেইল: rafi@example.com</p>
+      <p>📱 ফোন/WhatsApp: +8801XXXXXXXXX</p>
+      <p>🌐 সোশ্যাল: 
+        <a href="#" class="btn">Facebook</a>
+        <a href="#" class="btn">Instagram</a>
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    © <span id="yr"></span> রাফি আহমেদ — তৈরি হয়েছে GitHub Pages দিয়ে 💻  
+    <script>document.getElementById('yr').innerText=new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
